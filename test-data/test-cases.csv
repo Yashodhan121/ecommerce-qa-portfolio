@@ -1,0 +1,22 @@
+
+Test Case ID,Module,Scenario,Test Data,Expected Result,Actual Result,Status
+TC001,Login,Valid login,standard_user / secret_sauce,Products page should open,Not executed,Not Run
+TC002,Login,Invalid username,wrong_user / secret_sauce,Error message should appear,Not executed,Not Run
+TC003,Login,Invalid password,standard_user / wrong_password,Error message should appear,Not executed,Not Run
+TC004,Login,Empty username,Blank / secret_sauce,Validation message should appear,Not executed,Not Run
+TC005,Login,Empty password,standard_user / Blank,Validation message should appear,Not executed,Not Run
+TC006,Products,Products are displayed,Valid login,Product list should be visible,Not executed,Not Run
+TC007,Products,Product details,Valid login,Product name and price should be visible,Not executed,Not Run
+TC008,Products,Sort by price low to high,Valid login,Prices should be in ascending order,Not executed,Not Run
+TC009,Cart,Add one product,Backpack,Cart count should be 1,Not executed,Not Run
+TC010,Cart,Remove product,Backpack,Product should be removed,Not executed,Not Run
+TC011,Cart,Open empty cart,No products,Empty cart should be displayed,Not executed,Not Run
+TC012,Checkout,Checkout without products,Empty cart,Checkout should not complete,Not executed,Not Run
+TC013,Checkout,Valid customer details,QA / Tester / 411001,Continue to order overview,Not executed,Not Run
+TC014,Checkout,Missing first name,Blank first name,Validation message should appear,Not executed,Not Run
+TC015,Checkout,Missing last name,Blank last name,Validation message should appear,Not executed,Not Run
+TC016,Checkout,Missing postal code,Blank postal code,Validation message should appear,Not executed,Not Run
+TC017,Checkout,Complete valid order,Valid customer details,Confirmation should appear,Not executed,Not Run
+TC018,Navigation,Logout,Logged-in user,User should return to login page,Not executed,Not Run
+TC019,Cart,Multiple products,Two products,Cart count should be 2,Not executed,Not Run
+TC020,Products,Sort by name A to Z,Valid login,Products should be alphabetically sorted,Not executed,Not Run
